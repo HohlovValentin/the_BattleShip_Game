@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: black;
+}
+.wrapper {
+	margin: 0 auto;
+	height: 863px;
+	width: 1024px;
+	background: url('board.jpg') no-repeat;
+	border: 1px solid black;
+	position: relative;
+}
+table {	
+	margin: 96px auto;
+	width: 672px;
+	height: 674px;
+	border-spacing: 1px 0;
+}
+td {
+	padding: 38px;
+}
+#messageArea {
+	position: absolute;
+	top: 3%;
+	left: 5%;
+	color: #73961e;
+	font: bold 36px/1.5 Arial, sans-serif;
+}
+form {
+	position: absolute;
+	bottom: .5%;
+	right: 3%;
+}
+#fireButton {
+	padding: 10px 50px;
+	font: bold 14px Georgia;
+	color: #86ba27;
+	background-color: #30480a;
+}
+#guessInput {
+	padding: 10px;
+	width: 30px;
+}
+.hit {
+	background: url('ship.png') no-repeat center center;
+}
+.miss {
+	background: url('miss.png') no-repeat center center;
+
+}
